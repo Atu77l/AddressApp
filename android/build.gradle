@@ -1,0 +1,33 @@
+buildscript {
+    ext {
+        buildToolsVersion = "34.0.0"
+        minSdkVersion = 21
+        compileSdkVersion = 34
+        targetSdkVersion = 34
+        ndkVersion = "25.1.8937393"
+        kotlinVersion = "1.8.0"
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle")
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+    }
+}
+
+apply plugin: "com.facebook.react.rootproject"
+
+//   implementation(project(':react-native-onesignal')){
+//       exclude group: 'com.google.android.gms'
+//   }
+
+//   implementation(project(':react-native-maps')){
+//       exclude group: 'com.google.android.gms'
+//   }
+//   implementation 'com.google.android.gms:play-services-base:18.0.1'
+//   implementation 'com.google.android.gms:play-services-location:19.0.1'
+//   implementation 'com.google.android.gms:play-services-maps:18.0.2'
+//   implementation project(':@react-native-community_geolocation')
