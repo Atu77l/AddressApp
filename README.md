@@ -1,5 +1,3 @@
-![Screenshot 2024-01-19 205243](https://github.com/Akki9519/Rsvr/assets/103363760/3ff6f901-09fa-418e-a230-243c8f7f77be)
-![Screenshot 2024-01-19 205031](https://github.com/Akki9519/Rsvr/assets/103363760/4ff42093-9a83-47df-923c-e824d45143a7)
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
